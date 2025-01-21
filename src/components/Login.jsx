@@ -6,7 +6,7 @@ const Login = () => {
     <div>
         <Navbar />
         <div>
-            <h1>Loginaa</h1>
+            <h1>Login</h1>
         </div>
     </div>
   )
