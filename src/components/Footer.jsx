@@ -6,8 +6,8 @@ import { FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div>
-    <div className='grid grid-row-2 gap-4 w-full'>
+    <div className='w-full'>
+    
     <div className='bg-green-800 text-white h-56 p-1'>
         <div className='grid grid-cols-4 gap-4 h-20 p-'>
             <div className='bg-green-800 p-4 rounded-lg grid grid-rows-3 gap-3 text-left'>
@@ -59,7 +59,11 @@ const Footer = () => {
         </div>
 
     </div>
-   
+
+    <div>
+        <div className='bg-green-700 text-white h-10'>
+            <p className='text-center'>© 2021 All rights reserved</p>
+        </div>
     </div>
     </div>
   )
