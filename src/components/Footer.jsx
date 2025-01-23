@@ -1,10 +1,15 @@
 import React from 'react'
+import { FaFacebook } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
     <div className='bg-green-800 text-white h-56 p-1'>
         <div className='grid grid-cols-4 gap-4 h-20 p-'>
             <div className='bg-green-800 p-4 rounded-lg grid grid-rows-3 gap-3 text-left'>
+                <h2><p className='text-lg text-black'>Useful Links</p></h2>
                 <div>
                     <p>Privacy Policy</p>
                 </div>
@@ -20,14 +25,27 @@ const Footer = () => {
                 
             </div>
             <div className='bg-green-800 p-4 rounded-lg'>
-                <h2 className='text-lg'>
-                    <p>content part 2</p>
+                <h2 className='text-left'>
+                    <p className='text-lg text-black'>Customer Service</p>
+                    <p>Contact us</p>
+                    <p>About us</p>
                 </h2>
             </div>
             <div className='bg-green-800 p-4 rounded-lg'>
-                <h2 className='text-lg'>
-                    <p>content part 3</p>
-                </h2>
+                <div className='grid grid-cols-4 text-3xl '>
+                    <div >
+                        <FaFacebook/>
+                    </div>
+                    <div>
+                        <FaTwitter/>
+                    </div>
+                    <div>
+                        <FaInstagram/>
+                    </div>
+                    <div>
+                        <FaLinkedin/>
+                    </div>
+                </div>
             </div>
             <div className='bg-green-800 p-4 rounded-lg'>
                 <h2 className='text-lg'>
