@@ -2,17 +2,20 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='bg-green-800 p-9 text-white h-56 pt-5 pb-5 pl-5 pr-5'>
-        <div className='grid grid-cols-3 gap-4 h-56'>
-            <div className='bg-green-800 p-4 rounded-lg grid grid-rows-3 gap-3'>
+    <div className='bg-green-800 text-white h-56 p-1'>
+        <div className='grid grid-cols-4 gap-4 h-20 p-'>
+            <div className='bg-green-800 p-4 rounded-lg grid grid-rows-3 gap-3 text-left'>
                 <div>
-                    <p>1</p>
+                    <p>Privacy Policy</p>
                 </div>
                 <div>
-                    <p>2</p>    
+                    <p>FAQ</p>    
                 </div>    
                 <div>
-                    <p>3</p>    
+                    <p>Terms and Conditions</p>    
+                </div>
+                <div>
+                    <p>Stores</p>    
                 </div>
                 
             </div>
@@ -24,6 +27,11 @@ const Footer = () => {
             <div className='bg-green-800 p-4 rounded-lg'>
                 <h2 className='text-lg'>
                     <p>content part 3</p>
+                </h2>
+            </div>
+            <div className='bg-green-800 p-4 rounded-lg'>
+                <h2 className='text-lg'>
+                    <p>content part 4</p>
                 </h2>
             </div>
 
