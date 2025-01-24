@@ -66,8 +66,10 @@ const Footer = () => {
 
     <div>
         <div className='bg-black text-white h-20 m-0 content-center grid grid-cols-2 gap-6'>    
-            <p className='text-center'>© 2021 All rights reserved</p>
-            <div className='grid grid-cols-4 text-4xl'>
+            <div>
+            <p className='text-center' >© 2021 All rights reserved</p>
+            </div>
+            <div className='flex flex-row gap-3 text-4xl items-center justify-center'>
                 <FaCcVisa/>
                 <FaCcMastercard/>
                 <SiAmericanexpress/>
