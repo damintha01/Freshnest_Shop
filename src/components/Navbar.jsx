@@ -19,9 +19,9 @@ const Navbar = () => {
           <li><Menulink linkname='Contact' url='/Contact'/></li>
         
         </ul>
-        <div className='flex space-x-4 gap-4 p-2'>
-            <button className='bg-green-500  py-2 px-4 rounded-full hover:bg-green-700'>< Menulink linkname='Login' url='/Login'/></button>
-            <button className='bg-green-500  py-2 px-4 rounded-full hover:bg-green-700'>< Menulink linkname='Signup' url='/Signup'/></button>
+        <div className='flex space-x-4 gap-4'>
+            <button className='bg-opacity-20 border-2 border-green-500 py-2 px-4 rounded-full hover:bg-green-500'>< Menulink linkname='Login' url='/Login'/></button>
+            <button className='bg-opacity-20 border-2 border-green-500 py-2 px-4 rounded-full hover:bg-green-500'>< Menulink linkname='Signup' url='/Signup'/></button>
         
         </div>
         <div>
