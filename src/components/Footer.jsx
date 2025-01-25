@@ -10,12 +10,12 @@ import { SiGooglepay } from "react-icons/si";
 
 const Footer = () => {
   return (
-    <div className='bg-zinc-700'>
+    <div className=''>
     
-    <div className=' text-yellow-700 h-56 p-1'>
+    <div className=' text-black font-bold h-56 p-1'>
         <div className='grid grid-cols-4 gap-4 h-20'>
             <div className='p-4 rounded-lg grid grid-rows-3 gap-3 text-left pl-24'>
-                <h2><p className='text-lg text-black'>Useful Links</p></h2>
+                <h2><p className='text-lg text-slate-700'>Useful Links</p></h2>
                 <div>
                     <p>Privacy Policy</p>
                 </div>
@@ -32,7 +32,7 @@ const Footer = () => {
             </div>
             <div className='p-4 rounded-lg pl-10'>
                 <h2 className='text-left'>
-                    <p className='text-lg text-black'>Customer Service</p>
+                    <p className='text-lg text-slate-700'>Customer Service</p>
                     <p>Contact us</p>
                     <p>About us</p>
                 </h2>
@@ -65,7 +65,7 @@ const Footer = () => {
     </div>
 
     <div>
-        <div className='bg-black text-white h-20 m-0 content-center grid grid-cols-2 gap-6'>    
+        <div className=' text-black h-20 m-0 content-center grid grid-cols-2 gap-6'>    
             <div>
             <p className='text-center' >© 2021 All rights reserved</p>
             </div>

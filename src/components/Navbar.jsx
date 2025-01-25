@@ -36,7 +36,7 @@ const Navbar = () => {
       </div>
       </div>
       <div className='flex justify-start items-center p-0 space-x-9 '>
-          <img className='w-20 h-26 ' src={img1} alt="" />
+          <img className='w-24 h-27 ' src={img1} alt="" />
         </div>
 
     </div>
