@@ -6,7 +6,7 @@ import img1 from '../Img/logo.png'
 
 const Navbar = () => {
   return (
-    <div className='bg-green-800 p-2 flex flex-row-reverse justify-between items-center'>
+    <div className='bg-green-800 p-2 flex flex-row-reverse space-x-1 gap-1'>
       <div className='flex justify-self-center items-center p-1 space-x-6'>
         <div className='p-2'>
           <img className='w-20 h-26 ' src={img1} alt="" />
