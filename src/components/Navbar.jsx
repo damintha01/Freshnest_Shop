@@ -6,12 +6,12 @@ import img1 from '../Img/logo.png'
 
 const Navbar = () => {
   return (
-    <div className='bg-green-800 p-2'>
+    <div className='bg-green-800 p-2 flex flex-row-reverse justify-between items-center'>
       <div className='flex justify-self-center items-center p-1 space-x-6'>
         <div className='p-2'>
           <img className='w-20 h-26 ' src={img1} alt="" />
         </div>
-      <div className='flex items-center p-2 space-x-4 gap-4'>
+      <div className='flex p-2 space-x-4 gap-4'>
         <ul className='flex space-x-8 gap-8 p-2'>
           <li><Menulink linkname='Home' url='/' /></li>
           <li><Menulink linkname='News' url='/News'/></li>
