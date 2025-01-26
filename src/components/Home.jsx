@@ -4,7 +4,7 @@ import Footer from '../components/Footer'
 
 const Home = () => {
   return (
-    <div>
+    <div >
         <Navbar />
         <div className='min-h-screen text-center p5'>
             <h1>Home</h1>

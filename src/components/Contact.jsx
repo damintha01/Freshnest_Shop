@@ -3,7 +3,7 @@ import Navbar from './Navbar'
 
 const Contact = () => {
   return (
-    <div className='bg-cover bg-center opacity-100' style={{backgroundImage: `url(${bg})`}}>
+    <div>
         <Navbar />
         <div>
             <h1>Contact</h1>
