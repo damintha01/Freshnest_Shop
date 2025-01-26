@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
+import bg from '../Img/bg.webp'
 
 const About = () => {
   return (
