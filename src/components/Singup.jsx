@@ -8,7 +8,7 @@ const Singup = () => {
     <div className='bg-cover bg-center opacity-100' style={{backgroundImage: `url(${bg})`}}>
         <Navbar />
         <div className='min-h-screen p-5'>
-            <h1>Signu</h1>
+            <h1>Signup</h1>
         </div>
         <Footer />
     </div>
