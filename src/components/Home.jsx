@@ -8,7 +8,7 @@ const Home = () => {
     <div >
         <Navbar />
         <div className='min-h-screen text-center p5'>
-            <h1>Home.............</h1>
+            <h1>Home.....</h1>
         </div>
         <div className=''>
             <Footer />
