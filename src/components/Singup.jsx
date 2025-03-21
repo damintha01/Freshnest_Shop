@@ -1,4 +1,3 @@
-import React from 'react'
 import Navbar from './Navbar'
 import bg from '../Img/bg.webp'
 import Footer from './Footer'
