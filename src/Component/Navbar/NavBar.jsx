@@ -19,7 +19,7 @@ const NavBar = () => {
             <img src={logo} className="h-10 sm:h-12 w-auto" alt="DSHOP Logo" />
           </div>
 
-          
+          {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             <a href="#" className="text-white hover:text-amber-300 transition-colors duration-200 font-medium">Home</a>
             <a href="#" className="text-white hover:text-amber-300 transition-colors duration-200 font-medium">Products</a>
